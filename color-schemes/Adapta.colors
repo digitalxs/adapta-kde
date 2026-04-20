@@ -46,6 +46,34 @@ ForegroundNormal=239,240,241
 ForegroundPositive=17,209,22
 ForegroundVisited=61,174,230
 
+[Colors:Header]
+BackgroundAlternate=189,195,199
+BackgroundNormal=250,251,252
+DecorationFocus=0,188,212
+DecorationHover=0,188,212
+ForegroundActive=61,174,233
+ForegroundInactive=102,113,118
+ForegroundLink=41,128,185
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=49,54,59
+ForegroundPositive=0,150,136
+ForegroundVisited=127,140,141
+
+[Colors:Header][Inactive]
+BackgroundAlternate=189,195,199
+BackgroundNormal=250,251,252
+DecorationFocus=0,188,212
+DecorationHover=0,188,212
+ForegroundActive=61,174,233
+ForegroundInactive=102,113,118
+ForegroundLink=41,128,185
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=49,54,59
+ForegroundPositive=0,150,136
+ForegroundVisited=127,140,141
+
 [Colors:Selection]
 BackgroundAlternate=29,153,243
 BackgroundNormal=0,188,212
@@ -103,9 +131,10 @@ ForegroundPositive=0,150,136
 ForegroundVisited=127,140,141
 
 [General]
-ColorScheme=Breeze
+ColorScheme=Adapta
 Name=Adapta
 shadeSortColumn=true
+accentColor=0,188,212
 
 [KDE]
 contrast=4

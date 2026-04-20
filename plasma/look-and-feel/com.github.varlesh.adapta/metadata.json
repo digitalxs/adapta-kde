@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "varlesh@gmail.com",
+                "Name": "Alexey Varfolomeev"
+            }
+        ],
+        "Description": "Adapta Style",
+        "Id": "com.github.varlesh.adapta",
+        "License": "GPL-3.0-only",
+        "Name": "Adapta",
+        "Version": "20260420",
+        "Website": "https://github.com/PapirusDevelopmentTeam/adapta-kde"
+    },
+    "X-KDE-fallbackPackage": "org.kde.breeze.desktop",
+    "X-KPackage-Dependencies": [],
+    "X-Plasma-APIVersion": 2,
+    "X-Plasma-MainScript": "defaults"
+}

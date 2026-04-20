@@ -1,0 +1,24 @@
+{
+    "ContrastEffect": {
+        "contrast": 0.2,
+        "enabled": false,
+        "intensity": 0.4,
+        "saturation": 1.7
+    },
+    "KPackageStructure": "Plasma/Theme",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "varlesh@gmail.com",
+                "Name": "Alexey Varfolomeev"
+            }
+        ],
+        "Category": "",
+        "EnabledByDefault": true,
+        "Id": "Adapta",
+        "License": "CC-BY-SA-4.0",
+        "Name": "Adapta",
+        "Version": "20260420",
+        "Website": "https://github.com/PapirusDevelopmentTeam/adapta-kde"
+    }
+}

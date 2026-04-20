@@ -11,7 +11,11 @@ Theme=Papirus-Adapta
 name=Adapta
 
 [kwinrc][org.kde.kdecoration2]
+library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Adapta
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
+
+[kscreenlockerrc][Greeter][LnF]
+Theme=com.github.varlesh.adapta

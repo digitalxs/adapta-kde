@@ -1,0 +1,18 @@
+{
+    "KPackageStructure": "KWin/Decoration",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "varlesh@gmail.com",
+                "Name": "Alexey Varfolomeev"
+            }
+        ],
+        "Category": "",
+        "EnabledByDefault": true,
+        "Id": "Adapta",
+        "License": "GPL-3.0-only",
+        "Name": "Adapta",
+        "Version": "1.1",
+        "Website": "https://github.com/PapirusDevelopmentTeam/adapta-kde"
+    }
+}

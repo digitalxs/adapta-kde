@@ -1,0 +1,15 @@
+{
+    "KPackageStructure": "Plasma/Wallpaper",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "varlesh@gmail.com",
+                "Name": "Alexey Varfolomeev"
+            }
+        ],
+        "Id": "Adapta",
+        "License": "GPL-3.0-only",
+        "Name": "Adapta",
+        "Website": "https://github.com/PapirusDevelopmentTeam/adapta-kde"
+    }
+}

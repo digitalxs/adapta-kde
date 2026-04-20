@@ -1,10 +1,14 @@
 [Desktop Entry]
 Name=Adapta
-X-KDE-PluginInfo-Author=varlesh
+Type=Service
+X-KDE-ServiceTypes=KWin/Decoration
+
+X-KDE-PluginInfo-Author=Alexey Varfolomeev
 X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-Depends=
 X-KDE-PluginInfo-Email=varlesh@gmail.com
 X-KDE-PluginInfo-EnabledByDefault=true
-X-KDE-PluginInfo-License=GPL v3
+X-KDE-PluginInfo-License=GPL-3.0-only
 X-KDE-PluginInfo-Name=Adapta
-X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Version=1.1
+X-KDE-PluginInfo-Website=https://github.com/PapirusDevelopmentTeam/adapta-kde

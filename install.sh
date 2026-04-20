@@ -3,7 +3,7 @@
 set -e
 
 gh_repo="adapta-kde"
-gh_desc="Adapta KDE"
+gh_desc="Adapta KDE (Plasma 6 / KDE 6.3.6)"
 
 cat <<- EOF
 
@@ -20,7 +20,6 @@ cat <<- EOF
     kkk       dd   dd   eeeee
     kk kk     dd   dd   ee
     kk   kk   ddddd     eeeeeee
-
 
 
   $gh_desc
@@ -84,7 +83,11 @@ _cleanup() {
     _msg "Clearing cache ..."
     rm -rf "$temp_file" "$temp_dir" \
         ~/.cache/plasma-svgelements-Adapta* \
-        ~/.cache/plasma_theme_Adapta*.kcache
+        ~/.cache/plasma_theme_Adapta*.kcache \
+        ~/.cache/plasma-svgelements-adapta* \
+        ~/.cache/plasmashell/qmlcache/* \
+        ~/.cache/plasma_engine_kpackage_*.kcache \
+        ~/.cache/icon-cache.kcache 2>/dev/null || true
     _msg "Done!"
 }
 
