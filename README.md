@@ -1,6 +1,6 @@
 <div align="center">
 
-# Adapta KDE
+# Adapta KDE for Debian 13 (Trixie)
 
 **A Material-Design-inspired theme pack for KDE Plasma 6**
 
