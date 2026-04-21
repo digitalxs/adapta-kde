@@ -5,7 +5,7 @@
 > this fork keeps the KDE side alive on **Plasma 6 / KDE Frameworks 6 / Qt 6**.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/adapta-kde/master/preview.png" alt="Preview Adapta KDE"/>
+  <img src="https://raw.githubusercontent.com/digitalxs/adapta-kde/master/preview.png" alt="Preview Adapta KDE"/>
   <sup><sub>Screenshot: Engine: <a href="https://github.com/tsujan/Kvantum/tree/master/Kvantum">Kvantum</a> | Kvantum Theme: Adapta Nokto | Aurorae decoration: Adapta | Plasma Theme: Adapta | Icons: <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus-Adapta-Nokto</a> | File Manager: Dolphin | Calendar: <a href="https://invent.kde.org/plasma/plasma-workspace">Event Calendar</a></sub></sup>
 </p>
 
@@ -59,19 +59,19 @@ Use the script to install the latest version directly from this repo (independen
 #### Install
 
 ```sh
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/adapta-kde/master/install.sh | sh
+wget -qO- https://raw.githubusercontent.com/digitalxs/adapta-kde/master/install.sh | sh
 ```
 
 #### Uninstall
 
 ```sh
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/adapta-kde/master/install.sh | uninstall=true sh
+wget -qO- https://raw.githubusercontent.com/digitalxs/adapta-kde/master/install.sh | uninstall=true sh
 ```
 
 ### Build from source
 
 ```sh
-git clone https://github.com/PapirusDevelopmentTeam/adapta-kde.git
+git clone https://github.com/digitalxs/adapta-kde.git
 cd adapta-kde
 sudo make install            # system-wide, into /usr/share
 # or
@@ -131,7 +131,7 @@ Packages in this section are not part of the official repositories. If you have 
 
 ## Known issues
 
-- On some proprietary video drivers Aurorae has wrong rendering by default with the Adapta theme. See more info [here](https://github.com/PapirusDevelopmentTeam/adapta-kde/issues/21).
+- On some proprietary video drivers Aurorae has wrong rendering by default with the Adapta theme. See more info [here](https://github.com/digitalxs/adapta-kde/issues/21).
 - After installing on top of an existing Plasma 6 session, log out and back in (or run `kbuildsycoca6 --noincremental`) so KPackage picks up the new `metadata.json` files.
 
 ## Donate
