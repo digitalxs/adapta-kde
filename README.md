@@ -105,17 +105,10 @@ wget -qO- https://raw.githubusercontent.com/digitalxs/adapta-kde/master/install.
 sudo make uninstall
 ```
 
-### Other distributions
-
-| Distro             | Package                                                                                                                                                                    |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ubuntu / Mint      | `sudo add-apt-repository ppa:papirus/papirus && sudo apt install adapta-kde`                                                                                               |
-| Arch Linux         | `sudo pacman -S adapta-kde kvantum-theme-adapta`                                                                                                                           |
-| Arch Linux (AUR)   | [`adapta-kde-git`](https://aur.archlinux.org/packages/adapta-kde-git)                                                                                                      |
-| openSUSE           | [OBS: home:kill_it/adapta-kde](https://software.opensuse.org/download.html?project=home:kill_it&package=adapta-kde)                                                        |
+### Third-party packages                                                    |
 
 > Third-party packages are maintained outside this repo. Please contact the
-> respective maintainer for distro-specific issues.
+> respective maintainer for specific issues.
 
 ---
 
@@ -156,11 +149,6 @@ ButtonWidth=0
 TitleHeight=0
 TitleEdgeTop=0
 ```
-
-Combine with the [Window Title Applet](https://github.com/Zren/plasma-applet-window-title)
-and [Application Menu applet](https://invent.kde.org/plasma/plasma-workspace) for a
-single-row layout.
-
 ---
 
 ## Troubleshooting
